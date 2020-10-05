@@ -1,10 +1,131 @@
 
+body {
+    margin:0;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
 h2 {
     font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/forest.jpg);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.hero-text h1 {
+    margin-top: 5px;
+  }
+  
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} 
+
+.links img {
+    padding: 10px;
+}
+
+.portfolio-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio-text {
+    font-weight: bold;
+}
+
+
+.aboutMe {
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 228px;
+    margin-top: 0;
+    padding: 30px;
+}
+
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.tech h2 { 
+    color: white;
+    background-color:#FA382F;   
+    width: 62px;    
+}    
+
+.fetured-projects {
+    display: flex;
+    justify-content: center;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.fetured-projects h2 {
+    color: white;
+    background-color:#FA382F;   
+    text-align: center;
+    width: 258px; 
+}
+
+.thougths, .links2 {
+    display: flex;
+    justify-content: center;
+}
+
+.thougths h2, .skills h2, .links2 h2{
+    color: white;
+    background-color:#FA382F;   
+    text-align: center;
+    width: 258px; 
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+}
+
+.skill-boxes {
+    width: 56px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#065446;
+    color: white;
 }
