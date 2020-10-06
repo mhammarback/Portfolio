@@ -154,6 +154,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
     padding: 20px;
+    
 }
 
 
@@ -179,17 +180,18 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     font-size: 17px;
 }
 
+
+.fetured-projects-title {
+    padding-top: 20px;
+}
+
 .fetured-projects-title h2 {
     font-family:'Montserrat';
     font-size: 17px;
     color:#FA382F;   
 }
 
-
-
-
-
-.featured-projects-img {
+.featured-projects-img-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -199,7 +201,18 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     
 }
 
-.weather-app-img {
+.featured-projects-img-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF0E6;; 
+    border: 5px solid #ecd8bf;
+
+
+}
+
+.featured-projects-img {
     width: 40%;
     margin: 5px;
     margin-left: 15px;
