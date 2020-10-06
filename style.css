@@ -17,6 +17,9 @@ p {
     font-size: 15px;
 }
 
+
+
+
 /*START HEADER */
 
 header{
@@ -129,9 +132,6 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     padding: 30px;
 }
 
-
-
-
 .tech {
     display: flex;
     flex-direction: column;
@@ -144,10 +144,11 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     font-size: 22px;
     color: white;
     background-color: #438a5e;
-   /* background-color:#FA382F;   */
     width: 120px;    
 }    
 
+
+/* fetured projects */
 .fetured-projects {
     display: flex;
     flex-direction: column;
@@ -157,21 +158,20 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     padding: 20px;   
 }
 
-
-
-
 .fetured-projects h1 {
     font-size: 22px;
     color: white;
     background-color:#438a5e;;   
     text-align: center;
-    width: 258px; 
+    width: 250px; 
+    text-decoration: none;
 }
 
 
 .fetured-projects-tech {
     display: flex;
     flex-direction: row;
+    padding-bottom: 15px;
 }
 
 .fetured-projects-tech p {
@@ -187,7 +187,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     padding-top: 20px;
 }
 
-.fetured-projects-title h2 {
+.fetured-projects-title h2, .other-projects h2, .thougths h2  {
     font-family:'Montserrat';
     font-size: 17px;
     color:#438a5e;   
@@ -231,12 +231,39 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     margin-left: 15px;   
 }
 
-.other-projects {
-    background-color: #F4F4F4;
-    color: #438a5e;;
+
+.other-projects-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
     font-family: 'Montserrat';
     padding-top: 50px;
 }
+
+.other-projects-container h1 {
+    font-size: 17px;
+    color:#438a5e;   
+    text-align: center;
+}
+
+
+.other-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* My thougths*/
+
+.oak {
+    width: 80%;
+    height: 60%; 
+    max-width: 450px;
+    max-height: 400px;
+}
+
 
 .thougths {
     display: flex;
@@ -246,16 +273,19 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 }
 
 .thougths p {
-    font-style: italic;
+    text-align: center;
 }
 
-.thougths h1, .skills h1, .links2 h1{
+.thougths h1, .skills h1, .links2 h1, .other-projects h1 {
     font-size: 22px;
     color: white;
     background-color:#438a5e;;   
     text-align: center;
     padding: 5px;
 }
+
+/* skills */
+
 
 .skills {
     display: flex;
@@ -483,6 +513,13 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 
 .fetured-projects-title {
     padding: 30px;
+}
+
+.other-projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
 
 
