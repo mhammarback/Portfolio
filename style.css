@@ -4,11 +4,9 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-}
+    font-family: 'Montserrat';
 
+}
 
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -19,36 +17,97 @@ p {
     font-size: 15px;
 }
 
-.hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/forest.jpg);
+/*START HEADER */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/forest.jpg);
     height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
 }
 
-
-.hero-text {
+.header-description {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 40%;
     left: 40%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
 
-.hero-text h1 {
-    margin-top: 5px;
-  }
-  
-.links {
+.header-text {
+display: flex;
+flex-direction: row;
+}
+
+.header-portfolio {
+    font-weight: bold;
+}
+
+.header-description h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.profile-pic {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+/* icons and links  */
+
+.header-links-container {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-end; 
+    padding-top: 120px; 
 } 
 
-.links img {
-    padding: 10px;
+.header-icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+width:55px;
+height:55px;
 }
+
+
+.icon-linkedin, .icon-github, .icon-stack  { 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    cursor: pointer;
+    border: #ffffff solid 2px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+      
+header .icon-linkedin, header .icon-github, header .icon-stack {
+    width: 50%;
+    height:50%;
+}
+    
+.icon-linkedin { 
+    background-image: url('./img/iconmonstr-linkedin-1.svg');
+}
+    
+.icon-github { 
+    background-image: url('./img/github.svg');
+}
+
+.icon-stack {
+    background-image: url('./img/stackOverflow.svg');
+}
+
 
 .portfolio-name {
     display: flex;
@@ -60,6 +119,7 @@ p {
     font-weight: bold;
 }
 
+/*END OF HEADER*/
 
 .aboutMe {
     background: #F4F4F4 0% 0% no-repeat padding-box;
@@ -70,62 +130,302 @@ p {
 }
 
 
+
+
 .tech {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
-.tech h2 { 
+.tech h1 { 
+    font-size: 22px;
     color: white;
     background-color:#FA382F;   
-    width: 62px;    
+    width: 120px;    
 }    
 
 .fetured-projects {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding: 20px;
 }
 
 
-.fetured-projects h2 {
+.fetured-projects h1 {
+    font-size: 22px;
     color: white;
     background-color:#FA382F;   
     text-align: center;
     width: 258px; 
 }
 
-.thougths, .links2 {
+
+.fetured-projects-tech {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
-.thougths h2, .skills h2, .links2 h2{
+.fetured-projects-tech p {
+    background-color:#FDDFE7;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.fetured-projects-title h2 {
+    font-family:'Montserrat';
+    font-size: 17px;
+    color:#FA382F;   
+}
+
+
+
+.other-projects {
+    background-color: #F4F4F4;
+    color: red;
+    font-family: 'Montserrat';
+    padding-top: 50px;
+}
+
+.thougths {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.thougths p {
+    font-style: italic;
+}
+
+.thougths h1, .skills h1, .links2 h1{
+    font-size: 22px;
     color: white;
     background-color:#FA382F;   
     text-align: center;
-    width: 258px; 
+    padding: 5px;
 }
 
 .skills {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background: #F4F4F4 0% 0% no-repeat padding-box;
+    padding: 15px;
+}
+
+
+.skill-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .skill-boxes {
-    width: 56px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    align-items: center;
 }
+
+.skill-boxes h2 {
+    color: #FA382F;
+    font-family: 'Montserrat';
+    font-size: 17px;
+}
+
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+/* icons and links footer */
+
+.icon-linkedin-bottom,.icon-github-bottom, .icon-stack-bottom {
+    width: 70%;
+    height:70%;
+}
+
+.bottom-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-top: 10px; 
+    margin-left: 10px;
+} 
+
+.bottom-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:55px;
+    height:55px;
+    padding: 5px;
+}
+
+
+.icon-linkedin-bottom, .icon-github-bottom, .icon-stack-bottom { 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    cursor: pointer;
+    border: red solid 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+      
+ 
+.icon-linkedin-bottom { 
+    background-image: url('./img/iconmonstr-linkedin-1\ \(1\).svg');
+}
+    
+.icon-github-bottom { 
+    background-image: url('./img/github\ \(1\).svg');
+}
+
+.icon-stack-bottom {
+    background-image: url('./img/stackOverflowRed.svg');
+}
+
 
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#065446;
+    background-color:#294926;
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** MEDIA QUERIES TABLET **/
+
+@media screen and (min-width: 667px) and (max-width:1024px) {
+
+.header-description {    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+     color: white;
+}
+
+.header-description h1 {
+    font-size: 60px;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 310px;
+    right: 80px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header .icon-linkedin, header .icon-github, header .icon-stack {
+    width: 60%;
+    height: 60%;
+}
+
+.icon-linkedin, .icon-github, .icon-stack {
+    margin-right: 150px;
+}
+
+
+}
+
+
+/** MEDIA QUERIES DESKTOP **/
+
+@media screen and (min-width: 1024px) {
+
+.header-description {   
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header-description h1 {
+    font-size: 75px;
+}
+
+.header-portfolio {
+    font-size: 20px;
+}
+
+.header-portfolio-name {
+    font-size: 20px;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 280px;
+    right: 130px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+header .icon-linkedin, header .icon-github, header .icon-stack {
+    width: 80%;
+    height: 80%;
+}
+
+.icon-linkedin, .icon-github, .icon-stack {
+    margin-right: 300px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 200px 0px 200px;
+}
+
+.tech p {
+    max-width: 500px;
+}
+
+
+
+
+
+.thougths p {
+    max-width: 500px;
+}
+
+.bottom-icon {
+    padding: 10px;
+}
+
+.icon-linkedin-bottom,.icon-github-bottom, .icon-stack-bottom {
+    width: 90%;
+    height:90%;
+}
+
+
+
+
 }
