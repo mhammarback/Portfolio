@@ -143,7 +143,8 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 .tech h1 { 
     font-size: 22px;
     color: white;
-    background-color:#FA382F;   
+    background-color: #438a5e;
+   /* background-color:#FA382F;   */
     width: 120px;    
 }    
 
@@ -153,15 +154,16 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     align-items: center;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
-    padding: 20px;
-    
+    padding: 20px;   
 }
+
+
 
 
 .fetured-projects h1 {
     font-size: 22px;
     color: white;
-    background-color:#FA382F;   
+    background-color:#438a5e;;   
     text-align: center;
     width: 258px; 
 }
@@ -173,7 +175,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 }
 
 .fetured-projects-tech p {
-    background-color:#FDDFE7;
+    background-color:#cbe2b0;
     margin: 5px;
     padding: 5px;
     font-family: 'Roboto';
@@ -188,7 +190,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 .fetured-projects-title h2 {
     font-family:'Montserrat';
     font-size: 17px;
-    color:#FA382F;   
+    color:#438a5e;   
 }
 
 .featured-projects-img-container{
@@ -198,7 +200,8 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     align-items: center;
     background-color: #bbe1fa; 
     border: 5px solid #3282b8;
-    
+    max-width: 400px; 
+    max-height: 270px; 
 }
 
 .featured-projects-img-container-2 {
@@ -208,23 +211,29 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     align-items: center;
     background-color: #FAF0E6;; 
     border: 5px solid #ecd8bf;
+    max-width: 400px;
+    max-height: 270px;
+}
 
-
+.featured-projects-img-container-2 :hover,.featured-projects-img-container :hover  {
+    opacity: 0.3;
+    transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -ms-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    cursor: pointer;
 }
 
 .featured-projects-img {
     width: 40%;
     margin: 5px;
-    margin-left: 15px;
-    
+    margin-left: 15px;   
 }
-
-
-
 
 .other-projects {
     background-color: #F4F4F4;
-    color: red;
+    color: #438a5e;;
     font-family: 'Montserrat';
     padding-top: 50px;
 }
@@ -243,7 +252,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 .thougths h1, .skills h1, .links2 h1{
     font-size: 22px;
     color: white;
-    background-color:#FA382F;   
+    background-color:#438a5e;;   
     text-align: center;
     padding: 5px;
 }
@@ -272,7 +281,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 }
 
 .skill-boxes h2 {
-    color: #FA382F;
+    color: #438a5e;
     font-family: 'Montserrat';
     font-size: 17px;
 }
@@ -316,7 +325,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     background-position: center;
     background-size: 50%;
     cursor: pointer;
-    border: red solid 2px;
+    border: #438a5e solid 2px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -339,11 +348,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#294926;
+    background-color: #0e2408;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-bottom: 30px;
+
+}
 
 /** MEDIA QUERIES TABLET **/
 
@@ -382,6 +399,15 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     margin-right: 150px;
 }
 
+.fetured-projects-img-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.thougths p {
+    max-width: 500px;
+
+}
 
 }
 
@@ -439,16 +465,30 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     padding: 50px 200px 0px 200px;
 }
 
+.aboutMe p {
+    font-size: 25px;
+}
+
 .tech p {
     max-width: 500px;
+    font-size: 20px;
 }
 
 
+.test  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
 
+.fetured-projects-title {
+    padding: 30px;
+}
 
 
 .thougths p {
     max-width: 500px;
+    font-size: 20px;
 }
 
 .bottom-icon {
