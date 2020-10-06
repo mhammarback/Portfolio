@@ -187,6 +187,28 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 
 
 
+
+
+.featured-projects-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbe1fa; 
+    border: 5px solid #3282b8;
+    
+}
+
+.weather-app-img {
+    width: 40%;
+    margin: 5px;
+    margin-left: 15px;
+    
+}
+
+
+
+
 .other-projects {
     background-color: #F4F4F4;
     color: red;
@@ -231,7 +253,7 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 .skill-boxes {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 140px;
     text-align: center;
     align-items: center;
 }
