@@ -12,6 +12,13 @@ p {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+
 /*START HEADER */
 
 header{
@@ -245,6 +252,12 @@ height:55px;
     font-size: 22px;
     color:#438a5e;   
     text-align: center;
+}
+
+.arrow {
+    color:#438a5e;  
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .test2 {
