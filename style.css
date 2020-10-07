@@ -5,20 +5,12 @@ body {
 
 h1 {
     font-family: 'Montserrat';
-
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
-
-
-
 
 /*START HEADER */
 
@@ -73,6 +65,7 @@ flex-direction: row;
     display: flex;
     justify-content: flex-end; 
     padding-top: 120px; 
+    margin-left: 20px;
 } 
 
 .header-icon {
@@ -94,10 +87,11 @@ height:55px;
     margin-right: 30px;
 }
       
-header .icon-linkedin, header .icon-github, header .icon-stack {
+.icon-linkedin, .icon-github, .icon-stack {
     width: 50%;
     height:50%;
 }
+
     
 .icon-linkedin { 
     background-image: url('./img/iconmonstr-linkedin-1.svg');
@@ -359,7 +353,6 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
     flex-direction: row;
     justify-content: center; 
     padding-top: 10px; 
-    margin-left: 10px;
 } 
 
 .bottom-icon {
@@ -442,7 +435,12 @@ footer {
     height: 150px;
 }
 
-header .icon-linkedin, header .icon-github, header .icon-stack {
+
+.header-links-container {
+    margin-left: 150px;
+}
+
+.icon-linkedin, .icon-github, .icon-stack {
     width: 60%;
     height: 60%;
 }
@@ -561,7 +559,6 @@ header .icon-linkedin, header .icon-github, header .icon-stack {
 }
 
 
-
 .test2 {
     display: flex;
     flex-direction: column;
@@ -588,16 +585,14 @@ max-width:400px;
 .hidden-thougths {
     display: flex;
     flex-direction: row;
-   justify-content: center;
+    justify-content: center;
 }
-
-
 
 .bottom-icon {
     padding: 10px;
 }
 
-.icon-linkedin-bottom,.icon-github-bottom, .icon-stack-bottom {
+.icon-linkedin-bottom, .icon-github-bottom, .icon-stack-bottom {
     width: 90%;
     height:90%;
 }
