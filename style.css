@@ -15,8 +15,8 @@ p {
 a {
     text-decoration: none;
     color: inherit; 
+    
 }
-
 
 
 /*START HEADER */
@@ -163,6 +163,10 @@ header .icon-github {
     padding: 20px;   
 }
 
+.fetured-projects-container a {
+    margin: 10px;    
+}
+
 
 /*hidden on mobile */
 .fetured-projects-hidden {
@@ -193,10 +197,6 @@ header .icon-github {
     font-size: 17px;
 }
 
-
-.fetured-projects-title {
-    padding-top: 20px;
-}
 
 .fetured-projects-title h2, .other-projects h2, .thougths h2  {
     font-family:'Montserrat';
@@ -283,7 +283,8 @@ header .icon-github {
 
 .other-projects-card {
     margin-bottom: 20px;
-    max-width: 300px;
+    max-width: 320px;
+    
 }
 
 .other-projects {
@@ -375,7 +376,7 @@ header .icon-github {
 .skill-boxes {
     display: flex;
     flex-direction: column;
-    width: 160px;
+    width: 150px;
     text-align: center;
     align-items: center;
 }
@@ -537,6 +538,7 @@ p {
    font-size:18px;
 }
 
+
 .header-description {   
     width: 50%; 
     display: flex;
@@ -589,6 +591,12 @@ p {
     font-size: 22px;
 }
 
+
+
+.tech h1 {
+    font-size: 30px;
+}
+
 .tech p {
     max-width: 500px;
     font-size: 20px;
@@ -596,7 +604,7 @@ p {
 
 .fetured-projects-container h1 {
     width: 300px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .fetured-projects {
@@ -605,13 +613,17 @@ p {
     flex-wrap: wrap;
 } 
 
+.fetured-projects-title {
+    max-width: 400px;
+    padding: 10px 0px 10px ;
+}
+
+.fetured-projects-container a {
+    margin: 30px;
+}
 
 .fetured-projects-hidden {
     display: contents;
-}
-
-.fetured-projects-title {
-    padding: 30px;
 }
 
 .other-projects-container {
