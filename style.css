@@ -145,7 +145,7 @@ header .icon-github {
     padding: 30px;
 }
 
-.tech h1 { 
+.tech h1  { 
     font-size: 22px;
     color: white;
     background-color: #438a5e;
@@ -169,10 +169,10 @@ header .icon-github {
     display: none;
 }
 
-.fetured-projects h1 {
+.fetured-projects-container h1 {
     font-size: 22px;
     color: white;
-    background-color:#438a5e;;   
+    background-color:#438a5e;  
     text-align: center;
     width: 250px; 
     text-decoration: none;
@@ -263,14 +263,9 @@ header .icon-github {
     color:#438a5e;  
     font-weight: bold;
     cursor: pointer;
-}
-
-.highlight {
-    color:#438a5e;  
-    font-family: 'Roboto';
-    cursor: pointer;
     margin-right: 5px;
 }
+
 
 .other-projects-card-container{
     display: flex;
@@ -314,7 +309,10 @@ header .icon-github {
     padding: 30px;
 }
 
-.thougths-container h1, .skills h1, .links2 h1, .other-projects h1 {
+.thougths-container h1,
+ .skills h1, 
+ .links2 h1, 
+ .other-projects h1 {
     font-size: 22px;
     color: white;
     background-color:#438a5e;;   
@@ -579,6 +577,10 @@ footer {
     font-size: 20px;
 }
 
+.fetured-projects-container h1 {
+    width: 300px;
+    font-size: 25px;
+}
 
 .fetured-projects {
     display: flex;
@@ -669,8 +671,6 @@ max-width:400px;
     justify-content: space-between;
     font-family: 'Roboto';
 }
-
-
 
 .bottom-icon {
     padding: 10px;
