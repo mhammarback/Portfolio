@@ -9,6 +9,10 @@ I also used W3C (validator.w3.org) for validation.
 
 Screen Reader testing done with ChromeVox classic extension
 
+Color contrast checked with Chrome Dev Tools elements inspector.
+
+Ran an audit using Wave (wave.webaim.org): 
+
 # TECH
 
 HTML
