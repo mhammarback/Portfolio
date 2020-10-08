@@ -559,6 +559,11 @@ footer {
 }
 
 
+.header-icon {
+    width: 80px;
+    height: 80px;
+}
+
 .icon-linkedin, .icon-github, .icon-stack {
     margin-right: 300px;
 }
@@ -680,7 +685,9 @@ max-width:400px;
 
 
 .bottom-icon {
-    padding: 10px;
+    width: 100px;
+    height: 100px; 
+    padding: 10px;  
 }
 
 .icon-linkedin-bottom, .icon-github-bottom, .icon-stack-bottom {
