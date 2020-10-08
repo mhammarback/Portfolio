@@ -248,12 +248,12 @@ header .icon-github {
 
 .other-projects-container h1, .hidden-thougths-container h1 {
     font-size: 22px;
-    color:#438a5e;   
+    color:#247342;   
     text-align: center;
 }
 
 .arrow {
-    color:#438a5e;  
+    color:#247342;   
     font-weight: bold;
     cursor: pointer;
     margin-right: 5px;
@@ -366,7 +366,7 @@ header .icon-github {
 }
 
 .skill-boxes h2 {
-    color: #438a5e;
+    color:#247342;
     font-family: 'Montserrat';
     font-size: 17px;
 }
