@@ -672,6 +672,13 @@ max-width:400px;
     font-family: 'Roboto';
 }
 
+.more-thougths a {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 .bottom-icon {
     padding: 10px;
 }
