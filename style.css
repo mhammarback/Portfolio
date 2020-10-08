@@ -299,6 +299,14 @@ header .icon-github {
 }
 
 
+.thougths-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
 .thougths {
     display: flex;
     flex-direction: column;
@@ -306,17 +314,27 @@ header .icon-github {
     padding: 30px;
 }
 
-.thougths p {
-    text-align: center;
-}
-
-.thougths h1, .skills h1, .links2 h1, .other-projects h1 {
+.thougths-container h1, .skills h1, .links2 h1, .other-projects h1 {
     font-size: 22px;
     color: white;
     background-color:#438a5e;;   
     text-align: center;
     padding: 5px;
 }
+
+.thougths p {
+    text-align: center;
+}
+
+/* HIDDEN THOUGTHSCARD MOBILE */
+
+.thougths-card-hidden {
+    display: none;
+}
+
+
+
+
 
 /* HIDDEN THOUGTHS MOBILE */
 
@@ -597,15 +615,40 @@ max-width:400px;
 }
 
 
-
 .thougths p {
-    max-width: 500px;
+    max-width: 300px;
     font-size: 20px;
 }
 
 
+.displayed-thougths {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 
 /* HIDDEN THOUGTHS MOBILE, view desktop */
+
+.thougths img {
+    max-width: 400px;
+    max-height: 270px;
+}
+
+
+.thougths {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.thougths-card-hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .hidden-thougths-container {
     display: flex;
