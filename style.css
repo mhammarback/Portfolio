@@ -246,10 +246,26 @@ header .icon-github {
     padding: 10px
 }
 
-.other-projects-container h1, .hidden-thougths-container h1 {
+.other-projects-container h1 {
+    text-align: center;
+    color: #247342;  
+}
+
+
+.hidden-thougths-container h1 {
     font-size: 22px;
     color:#247342;   
     text-align: center;
+    font-weight: bold;
+}
+
+
+.arrow-link {
+    font-size: 22px;
+    color:#247342;   
+    text-align: center;
+    font-weight: bold;
+    max-width: 200px;
 }
 
 .arrow {
@@ -259,16 +275,15 @@ header .icon-github {
     margin-right: 5px;
 }
 
-
 .other-projects-card-container{
     display: flex;
     flex-direction: column;
 
 }
 
-
 .other-projects-card {
     margin-bottom: 20px;
+    max-width: 300px;
 }
 
 .other-projects {
@@ -611,6 +626,7 @@ p {
 
 .other-projects-card {
     margin: 20px;
+    max-width: 600px;
 }
 
 
