@@ -367,7 +367,7 @@ header .icon-github {
 .skill-boxes {
     display: flex;
     flex-direction: column;
-    width: 140px;
+    width: 160px;
     text-align: center;
     align-items: center;
 }
@@ -524,6 +524,10 @@ footer {
 /** MEDIA QUERIES DESKTOP **/
 
 @media screen and (min-width: 1024px) {
+
+p {
+   font-size:18px;
+}
 
 .header-description {   
     width: 50%; 
