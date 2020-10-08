@@ -154,7 +154,7 @@ header .icon-github {
 
 
 /* fetured projects */
-.fetured-projects {
+.fetured-projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,16 +272,15 @@ header .icon-github {
     margin-right: 5px;
 }
 
-.test2 {
+.other-projects-card-container{
     display: flex;
     flex-direction: column;
 
 }
 
 
-.test3 {
+.other-projects-card {
     margin-bottom: 20px;
-
 }
 
 .other-projects {
@@ -563,7 +562,7 @@ footer {
 }
 
 
-.test  {
+.fetured-projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -583,12 +582,12 @@ footer {
 }
 
 
-.test2 {
+.other-projects-card-container{
     display: flex;
     flex-direction: column;
 }
 
-.test3 {
+.other-projects-card {
     margin: 20px;
 }
 
