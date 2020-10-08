@@ -213,6 +213,7 @@ header .icon-github {
     border: 5px solid #3282b8;
     max-width: 400px; 
     max-height: 270px; 
+    cursor: pointer;
 }
 
 .featured-projects-img-container-2 {
@@ -226,15 +227,7 @@ header .icon-github {
     max-height: 270px;
 }
 
-.featured-projects-img-container-2 :hover,.featured-projects-img-container :hover  {
-    opacity: 0.1;
-    transition: opacity 0.2s linear;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    cursor: pointer;
-}
+
 
 .featured-projects-img {
     width: 40%;
