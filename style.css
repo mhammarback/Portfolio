@@ -494,6 +494,7 @@ footer {
 
 .header-links-container {
     max-width: 800px;
+    margin-right: 30px;
 }
 
 
@@ -539,6 +540,9 @@ p {
    font-size:18px;
 }
 
+.header-portfolio-name  {
+    font-size: 25px;
+}
 
 .header-description {   
     width: 50%; 
