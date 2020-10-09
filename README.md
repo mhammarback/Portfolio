@@ -21,8 +21,8 @@ I also used W3C (validator.w3.org) for validation.
 
 # TECH
 
-HTML
-CSS
+- HTML
+- CSS
 
 # View it Live
 https://moahammarback.netlify.app/
