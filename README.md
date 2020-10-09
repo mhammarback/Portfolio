@@ -1,6 +1,8 @@
 # Portfolio
 Welcome to my portfolio!
 
+This project's goal was to follow web accessibility, HTML validation guidelines and to implement a given design using all the knowledge of HTML and CSS from previous weeks.
+
 I created it using Mobile first approach and it is responsive for mobile, tablet and desktop. 
 
 
