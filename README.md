@@ -10,7 +10,7 @@ I created it using Mobile first approach and it is responsive for mobile, tablet
 
 - Cross browser testing in Fireforx, Chrome, Safari and Microsoft Edge 
 
-- HTML Validation: Used Lighthouse in Chrome Dev tools (Scored -  95 Performance, 100 Accessibility, 100 Best Pratices and 100 SEO).
+- HTML Validation: Used Lighthouse in Chrome Dev tools (Scored -  96 Performance, 100 Accessibility, 100 Best Pratices and 100 SEO).
 I also used W3C (validator.w3.org) for validation.
 
 - Screen Reader testing done with ChromeVox classic extension
