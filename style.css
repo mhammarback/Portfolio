@@ -8,7 +8,7 @@ h1 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
 }
 
 a {
@@ -47,13 +47,13 @@ flex-direction: row;
 }
 
 .header-description h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     margin: 0;
 }
 
 .header-description p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
@@ -72,7 +72,7 @@ flex-direction: row;
 .header-links-container {
     display: flex;
     justify-content: flex-end; 
-    padding-top: 120px; 
+    padding-top: 110px; 
     max-width: 1250px;
 } 
 
@@ -131,11 +131,15 @@ header .icon-github {
 
 /*END OF HEADER*/
 
-.aboutMe {
+.about-me {
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 0;
     padding: 30px;
+}
+
+.about-me-text {
+    font-family:'Roboto' ;
 }
 
 .tech {
@@ -205,6 +209,9 @@ header .icon-github {
     color:#247342;   
 }
 
+
+
+
 .featured-projects-img-container{
     display: flex;
     flex-direction: row;
@@ -227,6 +234,21 @@ header .icon-github {
     max-width: 400px;
     max-height: 270px;
 }
+
+.featured-projects-img-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+    border: 5px solid #000;
+    max-width: 400px; 
+    max-height: 270px; 
+    cursor: pointer;
+}
+
+
+
 
 .featured-projects-img {
     width: 40%;
@@ -403,7 +425,9 @@ header .icon-github {
 }
 
 
-.icon-linkedin-bottom, .icon-github-bottom, .icon-stack-bottom { 
+.icon-linkedin-bottom, 
+.icon-github-bottom,
+.icon-stack-bottom { 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -411,6 +435,12 @@ header .icon-github {
     border: #438a5e solid 2px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.icon-linkedin-bottom:hover,
+.icon-github-bottom:hover,
+.icon-stack-bottom:hover {
+  border: #0e2408 solid 3px;
 }
       
 .icon-linkedin-bottom { 
@@ -476,17 +506,23 @@ footer {
 .header-links-container {
     max-width: 800px;
     margin-right: 30px;
+    padding-top: 60px;
 }
 
+
+.header-icon {
+    width: 50px;
+    height: 50px;
+}
 .icon-linkedin, .icon-github, .icon-stack {
     margin-right: 150px;
 }
 
-.aboutMe {
+.about-me {
     text-align: center;
 }
 
-.aboutMe p {
+.about-me p {
     font-size: 20px;
 }
 
@@ -519,6 +555,11 @@ p {
 
 .header-portfolio-name  {
     font-size: 25px;
+}
+
+.header-links-container {
+    padding-top: 90px;
+   
 }
 
 .header-description {   
@@ -567,12 +608,12 @@ p {
     margin-right: 300px;
 }
 
-.aboutMe {
+.about-me {
     text-align: center;
     padding: 50px 200px 50px 200px;
 }
 
-.aboutMe p {
+.about-me p {
     font-size: 22px;
 }
 
