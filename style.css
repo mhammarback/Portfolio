@@ -494,8 +494,8 @@ footer {
 
 .image-overlay-text {
     font-size: 20px;
-    font-family: "Montserrat" sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: 700;
     color: white;
     position: absolute;
     text-align: center;
