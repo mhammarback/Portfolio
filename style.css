@@ -479,7 +479,7 @@ footer {
 .img-overlay {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: #f1f1f1;
     width: 100%;
     height: 100%;
@@ -659,7 +659,7 @@ p {
 }
 
 .about-me p {
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .tech h1 {
@@ -668,7 +668,7 @@ p {
 
 .tech p {
     max-width: 500px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .featured-projects-container {
