@@ -40,6 +40,7 @@ header{
 .header-text {
 display: flex;
 flex-direction: row;
+margin-left: 5px;
 }
 
 .header-portfolio {
@@ -50,6 +51,7 @@ flex-direction: row;
     font-size: 50px;
     font-weight: bold;
     margin: 0;
+    margin-left: 5px;
 }
 
 .header-description p {
@@ -72,7 +74,7 @@ flex-direction: row;
 .header-links-container {
     display: flex;
     justify-content: flex-end; 
-    padding-top: 110px; 
+    padding-top: 90px; 
     max-width: 1250px;
 } 
 
