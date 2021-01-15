@@ -591,10 +591,10 @@ footer {
   
 }
 
-.fetured-projects-img-container{
+.fetured-projects-img-container {
     flex-wrap: wrap;
     flex-direction: row;
-}
+} 
 
 
 .featured-projects-container {
@@ -605,18 +605,24 @@ footer {
     flex-wrap: wrap;
   }
 
+.featured-projects-img-container-5 {
+    max-width: 380px;
+  }
+
+.featured-projects-img-container-4 {
+    max-width: 370px;
+ }
 
 .other-projects-container {
-    align-items: center;
-}
+ }
 
 .other-projects p {
     max-width: 400px;
-}
+ }
 
 .thougths p {
     max-width: 500px;
-}
+ }
 }
 
 
